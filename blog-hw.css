@@ -1,0 +1,210 @@
+header {
+    text-align: center;
+    background: url('https://i.imgur.com/6JFCEwv.png');
+    background-size: cover;
+    height: 800px;
+    
+  }
+  
+  nav {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'helvetica';
+  font-size: 20px;  
+  color: navy;
+  margin-left: 80%; 
+}
+
+
+  h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  h2
+  {
+    text-decoration: underline;
+    color: darkviolet;
+  }
+  
+  h2,
+  h3,
+  p
+  {
+    text-align: justify;
+    text-wrap: wrap;
+    width: 600px;
+  }
+    
+  h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  span{
+   font-style: italic; 
+  }
+ 
+ img {
+   width: 600px;
+   height: 400px;
+   margin-bottom: 20px;
+ }
+ 
+ img:hover {
+   opacity: .5;
+transition: .5s ease-out;
+ }
+ 
+ 
+button,.button4 {
+  background-color: rebeccapurple;
+  color: white;
+  margin-top: 10px;
+  font-size: 18px;
+  border: 3px solid rebeccapurple;
+  margin-left: 40%;
+ 
+}
+
+.button4{
+  text-transform: uppercase;
+  margin-left: 28
+}
+
+button:hover
+{
+  transition: 0.5s ease-in;
+  background-color:goldenrod;
+}
+  
+  
+  }
+  ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  
+li:hover
+{
+  transition: 0.5s ease-in;
+  color: lightseagreen;
+  text-decoration: underline;
+}
+    
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+.container {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 95px;
+}
+
+p5{
+font-size: 28px;
+padding-top: 10px;
+font-weight: bolder;
+}
+
+input[type=text],
+input[type=email]
+{
+  width: 15%;
+  padding: 8px; 
+  border-width: 3px;
+  border-color:  mediumseagreen;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  margin-left: 15px;
+    
+}
+       
+ 
+  @media (max-width: 500px) {
+    h1,h2 {
+      font-size: 28px;
+    }
+    
+    li {
+      display: block;
+    }
+    
+    header {
+      background: url('https://i.imgur.com/6JFCEwv.png');
+      height: 300px;
+     
+    }
+    nav {
+      visibility: hidden;
+    }
+    
+    h2, h3, p{
+      text-align: center;
+      width: 450px;
+    }
+    
+    p, p2 button{
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    button, .button4 {
+      margin-left: 28%;
+      margin-left: 1%;
+    }
+    
+    img {
+      width: 250px;
+      height: 250px;
+      
+    }
+    
+    .blog1,.blog2, .blog3 {
+      text-align: center;
+    }
+    
+    
+  .container{
+    text-align: center;
+    margin-left: -10px;
+  }
+  
+  input[type=text],
+  input[type=email]{
+  width: 180px;
+  text-align: left;
+  }
+  
+p2{
+  text-align: center;
+  margin-left: 10px;
+}
+    
+  }
+  
